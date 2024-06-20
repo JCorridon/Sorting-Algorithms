@@ -44,43 +44,33 @@ else:
 
 if sort_type == "selection":
     for key in list_of_lists:
-        print(key)
         start_time = time.time()
         sortAlgorithms.selectionSort(key)
         print("--- %s seconds ---" % (time.time() - start_time))
-        print(key)
 
 elif sort_type == "insertion":
     for key in list_of_lists:
-        print(key)
         start_time = time.time()
         sortAlgorithms.insertionSort(key)
         print("--- %s seconds ---" % (time.time() - start_time))
-        print(key)
 
 elif sort_type == "bubble":
     for key in list_of_lists:
-        print(key)
         start_time = time.time()
         sortAlgorithms.bubbleSort(key)
         print("--- %s seconds ---" % (time.time() - start_time))
-        print(key)
 
 elif sort_type == "merge":
     for key in list_of_lists:
-        print(key)
         start_time = time.time()
         sortAlgorithms.mergeSort(key)
         print("--- %s seconds ---" % (time.time() - start_time))
-        print(key)
 
 elif sort_type == "quick":
     for key in list_of_lists:
-        print(key)
         start_time = time.time()
         sortAlgorithms.quickSort(key, 0, len_list - 1)
         print("--- %s seconds ---" % (time.time() - start_time))
-        print(key)
 
 else:
     print("Please make sure your spelling is correct")
